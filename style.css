@@ -1,0 +1,118 @@
+.header {
+
+    width: 100%;
+
+}
+
+.logo {
+    width: 45px;
+    position: absolute;
+    top: 20px;
+    left: 260px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0 20px;
+
+    margin-left: 300px;
+
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+
+}
+
+
+nav ul a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #807d7d
+}
+
+.title {
+
+    margin: 0 auto;
+    width: 100%;
+    height: 400px;
+    background-image: url(dayana-brooke-P2xvHzV68tY-unsplash.jpg);
+    background-position: center;
+    background-size: 100%;
+    text-align: center;
+    padding-top: 20px;
+
+
+}
+
+.title h1 {
+
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: aliceblue;
+
+
+}
+
+.options {
+    width: 400px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+
+
+}
+
+.btn {
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+    font-size: 1.4rem;
+    justify-content: center;
+    background: rgba(62, 244, 153, 0.69);
+
+
+
+}
+
+.btn a {
+    text-decoration: none;
+    color: #ffffff;
+
+    font-family: sans-serif;
+}
+
+.search-bar {
+    width: 400px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.72);
+
+    margin: 20px auto;
+}
+
+.search-btn {
+    float: right;
+    padding: 10px;
+    text-align: center;
+    transform: translate(5%, 15%);
+    width: 60px;
+    height: 10px;
+    margin-right: 10px;
+    background: #85dd85;
+}
+
+.search-btn a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    font-family: sans-serif;
+
+}
