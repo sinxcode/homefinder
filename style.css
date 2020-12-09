@@ -266,15 +266,42 @@ footer h3 {
 
 footer {
     width: 500px;
-
+    height: 150px;
     margin: 0 auto;
 
 }
 
-p {
+footer p {
 
     font-family: sans-serif;
     font-size: 10px;
+    display: inline-block;
     text-align: center;
     color: #353636;
+}
+
+.social-accounts {
+    width: 150px;
+    padding: 4px;
+    height: 40px;
+    margin: 2px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+.social-accounts p {
+    line-height: 20px;
+
+}
+
+.social-accounts img {
+    width: 30px;
+    height: 30px;
+
+    margin-top: 5px;
+    border-radius: 60px;
+
 }
