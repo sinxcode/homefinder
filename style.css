@@ -2,7 +2,10 @@
 
     width: 100%;
 
+
 }
+
+
 
 .logo {
     width: 45px;
@@ -14,8 +17,17 @@
 nav ul {
     list-style: none;
     padding: 0 20px;
+    width: 400px;
+    display: inline-block;
 
-    margin-left: 300px;
+
+
+
+}
+
+#right-list {
+    width: 300px;
+    float: right;
 
 }
 
@@ -36,7 +48,7 @@ nav ul a {
 
     margin: 0 auto;
     width: 100%;
-    height: 400px;
+    height: 300px;
     background-image: url(dayana-brooke-P2xvHzV68tY-unsplash.jpg);
     background-position: center;
     background-size: 100%;
@@ -74,11 +86,17 @@ nav ul a {
     display: flex;
     flex-direction: column;
     align-content: center;
-
+    font-family: 'Poppins', sans-serif;
     font-size: 1.4rem;
     justify-content: center;
     background: rgba(62, 244, 153, 0.69);
 
+
+
+}
+
+.btn:hover {
+    background: rgba(27, 255, 141, 0.82);
 
 
 }
@@ -91,7 +109,8 @@ nav ul a {
 }
 
 .search-bar {
-    width: 400px;
+    width: 450px;
+
     height: 40px;
     background: rgba(255, 255, 255, 0.72);
 
@@ -100,13 +119,16 @@ nav ul a {
 
 .search-btn {
     float: right;
-    padding: 10px;
+    padding: 0 10px;
     text-align: center;
-    transform: translate(5%, 15%);
+    transform: translate(-5%, 25%);
     width: 60px;
-    height: 10px;
-    margin-right: 10px;
-    background: #85dd85;
+    display: flex;
+    justify-content: center;
+    height: 25px;
+
+    background: #5df09b;
+    text-align: center;
 }
 
 .search-btn a {
@@ -114,5 +136,78 @@ nav ul a {
     color: rgb(0, 0, 0);
     font-weight: 300;
     font-family: sans-serif;
+    line-height: 25px;
+
+
+}
+
+.title2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 1.5rem;
+
+
+}
+
+.services {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.card {
+    width: 350px;
+    background: #ffffff;
+    box-shadow: 1px 1px 20px 1px rgba(124, 120, 120, 0.85);
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    border: solid #d9d3d3 1px;
+    cursor: default;
+    transition: .5s;
+
+
+}
+
+.card:hover {
+
+    transform: scale(1.1);
+
+
+}
+
+.card img {
+    width: 270px;
+    height: 150px;
+
+}
+
+.card h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+
+}
+
+.card p {
+    display: block;
+    max-width: 250px;
+    height: 120px;
+    margin-top: -5px;
+    padding: 10px;
+    line-height: 20px;
+    font-size: 1.5rem;
+    white-space: wrap;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+
 
 }
