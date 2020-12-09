@@ -5,6 +5,12 @@
 
 }
 
+h1,
+h2 {
+
+    cursor: default;
+}
+
 
 
 .logo {
@@ -41,7 +47,14 @@ nav ul li {
 nav ul a {
     text-decoration: none;
     font-family: sans-serif;
-    color: #807d7d
+    color: #807d7d;
+
+}
+
+nav ul a:hover {
+
+    color: #222324;
+
 }
 
 .title {
@@ -113,28 +126,52 @@ nav ul a {
 
     height: 40px;
     background: rgba(255, 255, 255, 0.72);
-
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
     margin: 20px auto;
+}
+
+.search-bar input {
+
+    border: none;
+    width: 360px;
+    background: rgba(255, 255, 255, 0.38);
+    float: left;
+    z-index: -1;
+    height: 35px;
+    padding: 0 10px;
+}
+
+.search-bar input:focus {
+    border: none;
+    outline: none;
+
 }
 
 .search-btn {
     float: right;
-    padding: 0 10px;
-    text-align: center;
-    transform: translate(-5%, 25%);
+    padding: 0 5px;
+
     width: 60px;
     display: flex;
     justify-content: center;
-    height: 25px;
+    align-content: center;
+    flex-direction: column;
+    height: 40px;
+    cursor: pointer;
+    background: rgb(6, 255, 131);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
 
-    background: #5df09b;
     text-align: center;
+    line-height: 30px;
+
 }
 
 .search-btn a {
     text-decoration: none;
     color: rgb(0, 0, 0);
-    font-weight: 300;
+    font-weight: 100;
     font-family: sans-serif;
     line-height: 25px;
 
@@ -144,6 +181,8 @@ nav ul a {
 .title2 {
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    height: 100px;
+    line-height: 100px;
     font-weight: bolder;
     font-size: 1.5rem;
 
@@ -166,6 +205,7 @@ nav ul a {
     box-shadow: 1px 1px 20px 1px rgba(124, 120, 120, 0.85);
     text-align: center;
     display: flex;
+    height: 400px;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
@@ -173,6 +213,7 @@ nav ul a {
     border: solid #d9d3d3 1px;
     cursor: default;
     transition: .5s;
+    cursor: pointer;
 
 
 }
@@ -193,6 +234,9 @@ nav ul a {
 .card h1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
+    font-size: 1rem;
+
+
 
 }
 
@@ -200,11 +244,12 @@ nav ul a {
     display: block;
     max-width: 250px;
     height: 120px;
-    margin-top: -5px;
+    margin-top: -15px;
     padding: 10px;
-    line-height: 20px;
-    font-size: 1.5rem;
+    line-height: 30px;
+    font-size: .9 rem;
     white-space: wrap;
+
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
