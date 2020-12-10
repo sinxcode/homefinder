@@ -3,6 +3,8 @@
     width: 100%;
 
 
+
+
 }
 
 h1,
@@ -11,31 +13,30 @@ h2 {
     cursor: default;
 }
 
+.header img {
+
+    width: 160px;
+    height: 50px;
+    margin-left: 40px;
 
 
-.logo {
-    width: 45px;
-    position: absolute;
-    top: 20px;
-    left: 260px;
+
 }
+
+
 
 nav ul {
     list-style: none;
     padding: 0 20px;
-    width: 400px;
+    width: 600px;
+    height: 50px;
+    margin-left: 40px;
     display: inline-block;
 
 
 
-
 }
 
-#right-list {
-    width: 300px;
-    float: right;
-
-}
 
 nav ul li {
     display: inline-block;
@@ -53,7 +54,7 @@ nav ul a {
 
 nav ul a:hover {
 
-    color: #222324;
+    color: #29c465;
 
 }
 
@@ -216,6 +217,7 @@ nav ul a:hover {
     cursor: pointer;
 
 
+
 }
 
 .card:hover {
@@ -303,5 +305,368 @@ footer p {
 
     margin-top: 5px;
     border-radius: 60px;
+
+}
+
+
+
+@media (max-width:1280px) {
+
+
+
+
+    .services {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: center;
+
+    }
+
+    .card {
+        width: 300px;
+        background: #ffffff;
+        box-shadow: 1px 1px 20px 1px rgba(124, 120, 120, 0.85);
+        text-align: center;
+        display: flex;
+        height: 400px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        border: solid #d9d3d3 1px;
+        cursor: default;
+        transition: .5s;
+        cursor: pointer;
+
+
+
+
+    }
+
+    .card:hover {
+
+        transform: scale(1.05);
+
+
+    }
+
+    .card img {
+        width: 270px;
+        height: 150px;
+
+    }
+
+    .card h1 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+
+
+
+    }
+
+    .card p {
+        display: block;
+        max-width: 250px;
+        height: 120px;
+        margin-top: -15px;
+        padding: 10px;
+        line-height: 30px;
+        font-size: 1rem;
+        white-space: wrap;
+
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+
+
+    }
+
+
+
+
+
+}
+
+
+@media (max-width:950px) {
+
+
+
+
+    .services {
+        width: 100%;
+        height: 800px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: center;
+
+    }
+
+    .card {
+        width: 550px;
+        background: #ffffff;
+        box-shadow: 1px 1px 20px 1px rgba(124, 120, 120, 0.85);
+        text-align: center;
+        display: flex;
+        height: 200px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        border: solid #d9d3d3 1px;
+        cursor: default;
+        transition: .5s;
+        cursor: pointer;
+        margin-bottom: 40px;
+
+
+
+    }
+
+    .card:hover {
+
+        transform: scale(1.05);
+
+
+    }
+
+    .card img {
+        width: 270px;
+        height: 150px;
+
+    }
+
+    .card h1 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+
+
+
+    }
+
+    .card p {
+        display: block;
+        max-width: 250px;
+        height: 120px;
+        margin-top: -15px;
+        padding: 10px;
+        line-height: 30px;
+        font-size: 1rem;
+        white-space: wrap;
+
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+
+
+    }
+
+
+
+
+
+}
+
+
+@media (max-width:750px) {
+
+    nav ul {
+        display: none;
+    }
+
+    .services {
+        width: 100%;
+        height: 800px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: center;
+
+    }
+
+    .card {
+        width: 500px;
+        background: #ffffff;
+        box-shadow: 1px 1px 20px 1px rgba(124, 120, 120, 0.85);
+        text-align: center;
+        display: flex;
+        height: 200px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        border: solid #d9d3d3 1px;
+        cursor: default;
+        transition: .5s;
+        cursor: pointer;
+        margin-bottom: 40px;
+
+
+
+    }
+
+    .card:hover {
+
+        transform: scale(1.05);
+
+
+    }
+
+    .card img {
+        width: 200px;
+        height: 150px;
+
+    }
+
+    .card h1 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+
+
+
+    }
+
+    .card p {
+        display: block;
+        max-width: 250px;
+        height: 120px;
+        margin-top: -15px;
+        padding: 10px;
+        line-height: 30px;
+        font-size: 1rem;
+        white-space: wrap;
+
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+
+
+    }
+
+
+
+
+
+
+}
+
+
+@media (max-width:650px) {
+
+    nav ul {
+        display: none;
+    }
+
+    .title h1 {
+        font-size: 1.5rem;
+    }
+
+    .title {
+        height: 200px;
+
+    }
+
+    .title2 {
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        height: 30px;
+        line-height: 100px;
+        font-weight: bolder;
+        font-size: 1rem;
+
+
+    }
+
+
+    .services {
+        width: 100%;
+        padding: 150px 0;
+        height: 1200px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: center;
+
+    }
+
+    .card {
+        width: 400px;
+        background: #ffffff;
+        box-shadow: 1px 1px 20px 1px rgba(124, 120, 120, 0.85);
+        text-align: center;
+        display: flex;
+        height: 400px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        border: solid #d9d3d3 1px;
+        cursor: default;
+        transition: .5s;
+        cursor: pointer;
+        margin-bottom: 40px;
+
+
+
+    }
+
+    .card:hover {
+
+        transform: scale(.9);
+
+
+    }
+
+    .card img {
+        width: 200px;
+        height: 150px;
+        margin: 0 auto;
+    }
+
+    .card h1 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+
+
+
+    }
+
+    .card p {
+        display: block;
+        max-width: 250px;
+        height: 120px;
+        margin-top: -15px;
+        padding: 10px;
+        line-height: 30px;
+        font-size: 1rem;
+        white-space: wrap;
+
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+
+
+    }
+
+    footer {
+        width: 100%;
+    }
+
+
+
+
+
 
 }
