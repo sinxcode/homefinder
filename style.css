@@ -310,7 +310,8 @@ footer p {
 
 
 
-@media (max-width:1280px) {
+
+@media all and (max-width:1280px) {
 
 
 
@@ -393,7 +394,7 @@ footer p {
 }
 
 
-@media (max-width:950px) {
+@media all and (max-width:950px) {
 
 
 
@@ -476,7 +477,7 @@ footer p {
 }
 
 
-@media (max-width:750px) {
+@media all and (max-width:750px) {
 
     nav ul {
         display: none;
@@ -561,7 +562,7 @@ footer p {
 }
 
 
-@media (max-width:650px) {
+@media all and (max-width:650px) {
 
     nav ul {
         display: none;
