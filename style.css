@@ -1,11 +1,20 @@
 .header {
 
-    width: 100%;
-
-
-
-
+    width: 10%;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hamburgur-menu {
+
+    display: none;
+    visibility: hidden;
+}
+
+
 
 h1,
 h2 {
@@ -486,6 +495,38 @@ footer p {
     nav ul {
         display: none;
     }
+
+    .header {
+        display: none;
+    }
+
+
+    .hamburgur-menu {
+        display: inline-block;
+        visibility: visible;
+        width: 50px;
+
+        height: 30px;
+        padding: 5px;
+        border: none;
+        float: left;
+        outline: none;
+
+
+    }
+
+
+
+    .bar {
+        width: 30px;
+        height: 4px;
+        margin: 5px auto;
+        border-radius: 30px;
+        background: #12ff12;
+        border: none;
+        outline: none;
+    }
+
 
     .services {
         width: 100%;
