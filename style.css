@@ -84,6 +84,7 @@ nav ul a:hover {
 .title h1 {
 
     font-size: 3rem;
+    line-height: 90px;
     font-family: sans-serif;
     color: aliceblue;
 
@@ -501,15 +502,20 @@ footer p {
     }
 
 
+    .title h1 {
+        font-size: 2.5rem;
+        margin: 20px 0;
+    }
+
     .hamburgur-menu {
-        display: inline-block;
+        display: block;
+
         visibility: visible;
-        width: 50px;
+        width: 100%;
 
         height: 30px;
         padding: 5px;
         border: none;
-        float: left;
         outline: none;
 
 
@@ -519,8 +525,10 @@ footer p {
 
     .bar {
         width: 30px;
-        height: 4px;
-        margin: 5px auto;
+        height: 5px;
+        float: left;
+        margin: 3px;
+        clear: both;
         border-radius: 30px;
         background: #12ff12;
         border: none;
