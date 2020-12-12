@@ -511,13 +511,21 @@ footer p {
         display: block;
 
         visibility: visible;
-        width: 100%;
+        width: 60px;
+        margin-left: 20px;
         height: 30px;
         padding: 5px;
         border: none;
         outline: none;
+        background: red;
 
 
+
+    }
+
+    .hamburgurMenu-clicked {
+
+        transform: rotate(45deg);
     }
 
 
@@ -531,12 +539,28 @@ footer p {
         border-radius: 30px;
         background: #6dff03;
         border: none;
+        transition: .2s;
         outline: none;
+
     }
 
-    .bar-clicked {
 
-        transform: rotate(60deg);
+    .bar1-clicked {
+
+        transform: rotate(90deg);
+
+
+    }
+
+    .bar2-clicked {
+        transform: rotate(0deg);
+
+
+
+    }
+
+    .bar3-clicked {
+        display: none;
 
 
     }
