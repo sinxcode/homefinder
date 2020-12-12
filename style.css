@@ -520,8 +520,9 @@ footer p {
     }
 
     .dropdown ul li {
-        width: 100%;
+        width: 40%;
         padding: 5px 15px;
+        margin-left: 10px;
         margin-top: 10px;
         height: 30px;
         background: #ffffff;
@@ -537,6 +538,8 @@ footer p {
     .dropdown ul li a:hover {
         color: #36ff64;
     }
+
+
 
     nav ul {
         display: none;
