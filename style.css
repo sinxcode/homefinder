@@ -502,8 +502,12 @@ footer p {
         width: 100%;
         height: 300px;
         background: red;
+        overflow: scroll;
         position: absolute;
         top: 0;
+        z-index: 1;
+
+
     }
 
     .dropdown ul {
@@ -549,7 +553,11 @@ footer p {
         border: none;
         outline: none;
         cursor: pointer;
-        z-index: 9999;
+        position: absolute;
+        top: 10px;
+        z-index: 1;
+        
+
 
 
 
@@ -557,8 +565,7 @@ footer p {
     }
 
     .hamburgurMenu-clicked {
-        transform: rotate(45deg)
-    }
+        transform: rotate(45deg)    }
 
 
 
