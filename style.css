@@ -518,6 +518,7 @@ footer p {
         border: none;
         outline: none;
         background: red;
+        cursor: pointer;
 
 
 
@@ -541,6 +542,7 @@ footer p {
         border: none;
         transition: .2s;
         outline: none;
+
 
     }
 
