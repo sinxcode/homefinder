@@ -3,6 +3,8 @@ var menu = document.getElementsByClassName("hamburgur-menu");
 
 var dropDown = document.getElementById("dropdown");
 
+var hamburgurContainer = document.getElementsByClassName("hamburgur-container");
+
 
 
 function barClicked() {
@@ -24,12 +26,14 @@ function barClicked() {
         dropDown.style.display = "none";
         dropDown.style.height = "0";
         document.getElementsByTagName("body")[0].style.overflow = "visible";
+        hamburgurContainer[0].classList.toggle("hamburgur-container-clicked");
     } else {
 
         dropDown.style.display = "block";
 
         dropDown.style.height = "100vh";
         document.getElementsByTagName("body")[0].style.overflow = "hidden";
+        hamburgurContainer[0].classList.toggle("hamburgur-container-clicked");
 
     }
 
