@@ -517,14 +517,17 @@ footer p {
         list-style: none;
         margin-top: 70px;
         width: 100%;
+        box-sizing: border-box;
     }
 
     .dropdown ul li {
-        width: 40%;
+        width: 100%;
+        height: 30%;
+        box-sizing: border-box;
         padding: 5px 15px;
-        margin-left: 15px;
+
         margin-top: 10px;
-        height: 30px;
+
         background: #ffffff;
         font-family: 'Poppins', sans-serif;
 
@@ -533,6 +536,8 @@ footer p {
 
     .dropdown ul li a {
         text-decoration: none;
+        width: 100%;
+        display: block;
     }
 
     .dropdown ul li a:hover {
