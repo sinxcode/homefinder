@@ -541,7 +541,13 @@ footer p {
     }
 
     .dropdown ul li a:hover {
-        color: #36ff64;
+        color: #1be551;
+    }
+
+    .dropdown ul li:hover {
+        background: #e6e5e5;
+
+
     }
 
 
